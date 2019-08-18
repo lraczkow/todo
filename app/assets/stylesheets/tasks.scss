@@ -1,7 +1,3 @@
-// Place all the styles related to the tasks controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
 html,
 body {
   margin: 0;
@@ -39,7 +35,7 @@ body {
 
 button,
 input[type="checkbox"] {
-  outline: black;
+  outline: none;
 }
 
 .hidden {
@@ -184,7 +180,7 @@ label[for='toggle-all'] {
   top: 0;
   bottom: 0;
   margin: auto 0;
-  border: solid gray; /* Mobile Safari */
+  border: none; /* Mobile Safari */
   -webkit-appearance: none;
   appearance: none;
 }
